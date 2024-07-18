@@ -1,4 +1,4 @@
-public abstract  class Vehicle {
+public abstract  class Vehicle implements Transport {
     private int numberOfTyres;
     public Vehicle(int numberOfTyres) {
         this.numberOfTyres = numberOfTyres;
